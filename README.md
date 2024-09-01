@@ -9,7 +9,7 @@ The resources/services/activations/deletions that this module will create/trigge
 
 ```hcl
 module "vpc" {
-  source  = "git::https://stash.wemakeprice.com/scm/tgm/terraform-google-vpc.git"
+  source  = "git::https://awx.kr/terraform-gcp-vpc/terraform-google-vpc.git"
 
   project_id  = "my-prod-project"
   network_name = "vpc-network-1"
